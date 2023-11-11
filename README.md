@@ -17,3 +17,9 @@ GRAVITY_Y
 ```
 
 I just did this as a fun hour-long game jam, and am unlikely to make further changes. However it someone wants to make PR's, I'll happily review/approve/give-moderator-permissions. I don't think it would take too much to make this into a pretty fun little game. 
+
+
+## Tech Notes
+Built in Godot 4 based on the tutorial for pong ( https://docs.godotengine.org/en/2.1/learning/step_by_step/simple_2d_game.html ) but ... *parameterized*. 
+
+Yeah, the ball collisions are mostly done based on the center of the sprite, so it's a bit weird with a super-big-ball. Fixing that would take more than my one-hour time slot this evening.
