@@ -1,5 +1,8 @@
 # parameterball
 Pong in the style of https://xkcd.com/2852/ 
+Check the releases tab to download. Gameplay video:
+
+https://www.youtube.com/watch?v=BkxMmVFGnv4
 
 Every time someone wins/looses, some parameters of the game change. The parameters that currently change are:
 ```
