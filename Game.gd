@@ -40,7 +40,7 @@ func spin():
 	PAD_SPEED = randi_range(80, 200)
 	
 	GRAVITY_X = randi_range(-BALL_SPEED, BALL_SPEED)
-	GRAVITY_Y = randi_range(-BALL_SPEED, BALL_SPEED)
+	GRAVITY_Y = randi_range(-BALL_SPEED * 2, BALL_SPEED * 2)
 	
 	$left.position.x = -COURT_WIDTH / 2 + 50
 	$left.position.y = clamp($left.position.y, -COURT_HEIGHT / 2 + PAD_LENGTH / 2 , COURT_HEIGHT / 2 - PAD_LENGTH / 2)
